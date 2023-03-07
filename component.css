@@ -1,0 +1,21 @@
+.window{
+    width: 240px;
+    background-color: rgb(210, 210, 210);
+    border-radius: 13px;
+    border: 2px solid rgb(180, 180, 180);
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.model{
+    display: flex;
+    justify-content: center;
+}
+
+.character{
+    padding-left: 15px;
+}

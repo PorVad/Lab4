@@ -1,0 +1,36 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.delete{
+    margin-left: 50px;
+    width: 70px;
+    height: 28px;
+    color: red;
+    border-color: brown;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.delete:hover{
+    background-color: red;
+    color: white;
+}
+
+.edit{
+    width: 70px;
+    height: 28px;
+    color: rgb(0, 140, 255);
+    border-color: rgb(184, 108, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+
+.edit:hover{
+    background-color: rgb(191, 122, 255);
+    color: white;
+}
